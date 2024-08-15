@@ -1,6 +1,6 @@
 import React from 'react';
-import PlantForm from '../PlantForm/PlantForm.jsx';
-import PlantList from '../PlantList/PlantList.jsx';
+import TodoForm from '../TodoForm/TodoForm.jsx';
+import TodoList from '../TodoList/TodoList.jsx';
 
 function Garden() {
   return(
@@ -8,8 +8,8 @@ function Garden() {
       <h2>This is the garden!</h2>
       {/* Redux State isn't needed in the garden, it is just a parent component */}
       {/* Thanks to redux, there is no need to pass along props! */}
-      <PlantForm />
-      <PlantList />
+      <TodoForm />
+      <TodoList />
     </div>
   )
 }

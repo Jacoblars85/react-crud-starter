@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import { useDispatch, useSelector} from 'react-redux';
 
 
-function PlantList() {
+function TodoList() {
     const dispatch = useDispatch();
 
     const reduxState = useSelector(store => store);
@@ -19,4 +19,4 @@ function PlantList() {
     );
 }
 
-export default PlantList;
+export default TodoList;

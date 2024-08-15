@@ -1,7 +1,7 @@
 import React, { useState }from 'react';
 import { useDispatch } from 'react-redux';
 
-const PlantForm = () => {
+const TodoForm = () => {
     const dispatch = useDispatch();
     
     //Initial state is an OBJECT, with keys id and name
@@ -31,4 +31,4 @@ const PlantForm = () => {
 }
 
 
-export default PlantForm;
+export default TodoForm;

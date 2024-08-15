@@ -1,5 +1,5 @@
 import React from 'react';
-import Garden from '../Garden/Garden.jsx';
+import Todo from '../Todo/Todo.jsx';
 
 import './App.css';
 
@@ -9,7 +9,7 @@ function App (){
       <header className="App-header">
         <h1>Welcome to React!</h1>
       </header>
-      <Garden />
+      <Todo />
     </div>
   )
 }

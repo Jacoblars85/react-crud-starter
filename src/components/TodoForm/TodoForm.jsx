@@ -24,7 +24,7 @@ const TodoForm = () => {
             <pre>{JSON.stringify(newPlant)}</pre>
             <form onSubmit={addNewPlant}>
                 <input type='text' value={newPlant.name} onChange={handleNameChange} />
-                <input type='submit' value='Add New Plant' />
+                <input type='submit' value='Add New todo' />
             </form>
         </div>
     );

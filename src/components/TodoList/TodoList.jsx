@@ -13,7 +13,7 @@ function TodoList() {
 
     return (
         <div>
-            <h3>This is the plant list</h3>
+            <h3>This is the todo list</h3>
             <pre>{JSON.stringify(reduxState)}</pre>
         </div>
     );

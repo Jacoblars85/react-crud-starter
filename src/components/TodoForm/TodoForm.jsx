@@ -7,13 +7,10 @@ const TodoForm = () => {
     //Initial state is an OBJECT, with keys id and name
     let [newTodo, setTodo] = useState();
 
-    const handleNameChange = (event) => {
-
-    }
-
     const addNewTodo = event => {
 
     }
+    
     return (
         <div>
             <h3>This is the form</h3>

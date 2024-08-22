@@ -10,16 +10,12 @@ const TodoForm = () => {
     const addNewTodo = event => {
 
     }
-    
+
     return (
         <div>
             <h3>This is the form</h3>
 
             <p>{newTodo}</p>
-
-            <form onSubmit={addNewTodo}>
-                <input type='submit' value='Add New todo' />
-            </form>
         </div>
     );
 }

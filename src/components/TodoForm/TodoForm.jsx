@@ -5,7 +5,7 @@ const TodoForm = () => {
     const dispatch = useDispatch();
     
     //Initial state is an OBJECT, with keys id and name
-    let [newTodo, setTodo] = useState({id: 4, name: ''});
+    let [newTodo, setTodo] = useState();
 
     const handleNameChange = (event) => {
 
@@ -17,7 +17,9 @@ const TodoForm = () => {
     return (
         <div>
             <h3>This is the form</h3>
-            <pre>{JSON.stringify(newTodo)}</pre>
+
+            <p>{newTodo}</p>
+
             <form onSubmit={addNewTodo}>
                 <input type='submit' value='Add New todo' />
             </form>

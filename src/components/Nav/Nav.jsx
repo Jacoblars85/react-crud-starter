@@ -3,14 +3,8 @@ import { Link } from "react-router-dom";
 import "./Nav.css";
 import { useSelector, useDispatch } from "react-redux";
 
-
-
-
-
 function Nav(props) {
   const dispatch = useDispatch();
-
-
 
   return (
     <div className="nav">

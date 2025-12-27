@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import { useDispatch, useSelector} from 'react-redux';
 
 
-function TodoList() {
+function BasicList() {
     const dispatch = useDispatch();
 
     useEffect(() => {
@@ -16,4 +16,4 @@ function TodoList() {
     );
 }
 
-export default TodoList;
+export default BasicList;

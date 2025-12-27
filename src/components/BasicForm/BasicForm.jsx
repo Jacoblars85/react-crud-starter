@@ -4,6 +4,8 @@ import { useDispatch } from 'react-redux';
 const BasicForm = () => {
     const dispatch = useDispatch();
 
+      const store = useSelector((store) => store);
+
     return (
         <div>
             <h3>This is the form</h3>

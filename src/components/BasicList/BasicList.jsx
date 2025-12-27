@@ -1,21 +1,18 @@
-import React, { useEffect } from 'react';
-import { useDispatch, useSelector} from 'react-redux';
-
+import React, { useEffect } from "react";
+import { useDispatch, useSelector } from "react-redux";
 
 function BasicList() {
-    const dispatch = useDispatch();
+  const dispatch = useDispatch();
 
-      const store = useSelector((store) => store);
+  const store = useSelector((store) => store);
 
-    useEffect(() => {
+  useEffect(() => {}, []);
 
-    }, []); 
-
-    return (
-        <div>
-            <h3>This is the todo list</h3>
-        </div>
-    );
+  return (
+    <div>
+      <h3>This is the todo list</h3>
+    </div>
+  );
 }
 
 export default BasicList;

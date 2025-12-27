@@ -1,7 +1,7 @@
 import React, { useState }from 'react';
 import { useDispatch } from 'react-redux';
 
-const TodoForm = () => {
+const BasicForm = () => {
     const dispatch = useDispatch();
 
     return (
@@ -14,4 +14,4 @@ const TodoForm = () => {
 }
 
 
-export default TodoForm;
+export default BasicForm;

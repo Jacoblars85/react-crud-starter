@@ -6,6 +6,8 @@ import { useSelector, useDispatch } from "react-redux";
 function Nav(props) {
   const dispatch = useDispatch();
 
+    const store = useSelector((store) => store);
+
   return (
     <div className="nav">
       <Link to="/home">
